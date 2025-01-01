@@ -4786,7 +4786,7 @@ __metadata:
     i18next-browser-languagedetector: "npm:^8.0.0"
     locales: "workspace:*"
     plugin-staking-api: "workspace:*"
-    polkadot-api: "npm:^1.8.0"
+    polkadot-api: "npm:^1.8.1"
     qrcode-generator: "npm:1.4.4"
     rc-slider: "npm:^11.1.6"
     react: "npm:^18.3.1"
@@ -9431,9 +9431,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"polkadot-api@npm:^1.8.0":
-  version: 1.8.0
-  resolution: "polkadot-api@npm:1.8.0"
+"polkadot-api@npm:^1.8.1":
+  version: 1.8.1
+  resolution: "polkadot-api@npm:1.8.1"
   dependencies:
     "@polkadot-api/cli": "npm:0.10.0"
     "@polkadot-api/ink-contracts": "npm:0.2.4"
@@ -9459,7 +9459,7 @@ __metadata:
   bin:
     papi: bin/cli.mjs
     polkadot-api: bin/cli.mjs
-  checksum: 10c0/3a77289fe5eaecd33fe5a335a1d289c474b182c178467fdc3e222cea477d5d2e9f54eb8fe86742a1a9a63ab910abbc0f2b88babc858707f8b908c353b8dd99a6
+  checksum: 10c0/ae6c34208c1a96267000bba8171b48b1d4145f5d8326ce135a87902727a86842a146bde98e3cf1bc1d17f60a632a60d50f1e164079e4d2aab0d89b0b457be818
   languageName: node
   linkType: hard
 
