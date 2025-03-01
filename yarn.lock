@@ -3395,17 +3395,31 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@substrate/connect-extension-protocol@npm:^2.0.0, @substrate/connect-extension-protocol@npm:^2.2.1":
+"@substrate/connect-extension-protocol@npm:^2.0.0":
   version: 2.2.1
   resolution: "@substrate/connect-extension-protocol@npm:2.2.1"
   checksum: 10c0/5e066c1cbdfe9d4cae6bc85dd0adbe62832af08733b0fe6dab4aee05520ef0f85c3b892e58ba59c83a0d70a3587e16e91f61265e961e978a721dfddd6eb8b1f4
   languageName: node
   linkType: hard
 
-"@substrate/connect-known-chains@npm:^1.1.5, @substrate/connect-known-chains@npm:^1.8.0":
+"@substrate/connect-extension-protocol@npm:^2.2.2":
+  version: 2.2.2
+  resolution: "@substrate/connect-extension-protocol@npm:2.2.2"
+  checksum: 10c0/11eb887841a40ae9eafb34fd6f6aabddf4df1cc27aa144edd9be308baa10445b8c14b7b6ccf8de05683d84449cce5cabf43c59ef782eb91e2288c2139f7f6441
+  languageName: node
+  linkType: hard
+
+"@substrate/connect-known-chains@npm:^1.1.5":
   version: 1.8.0
   resolution: "@substrate/connect-known-chains@npm:1.8.0"
   checksum: 10c0/9315ca8f6a7bfc2d06176c217be68a81109e32da6a90cda8f0827c8101fee6aa696264953c06646c2c450bf3adbae481df0ca1ea1988533c127a03fcec67827c
+  languageName: node
+  linkType: hard
+
+"@substrate/connect-known-chains@npm:^1.9.2":
+  version: 1.9.2
+  resolution: "@substrate/connect-known-chains@npm:1.9.2"
+  checksum: 10c0/730ed1420ae0cf33d7c9479cf180ca386edae72f6b9261cc8ac1381cd803142eb0b75df35ad939a4d8c7a0acb83da2840d948066c2950b201c9037f4ef75287c
   languageName: node
   linkType: hard
 
@@ -3421,22 +3435,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@substrate/connect@npm:^2.0.1":
-  version: 2.1.0
-  resolution: "@substrate/connect@npm:2.1.0"
+"@substrate/connect@npm:^2.1.4":
+  version: 2.1.4
+  resolution: "@substrate/connect@npm:2.1.4"
   dependencies:
-    "@substrate/connect-extension-protocol": "npm:^2.2.1"
-    "@substrate/connect-known-chains": "npm:^1.8.0"
-    "@substrate/smoldot-discovery": "npm:^2.0.1"
+    "@substrate/connect-extension-protocol": "npm:^2.2.2"
+    "@substrate/connect-known-chains": "npm:^1.9.2"
+    "@substrate/smoldot-discovery": "npm:^2.0.2"
     smoldot: "npm:^2.0.34"
-  checksum: 10c0/2a754d5c553a99e20fecb5f57c74f7a589a0ae6ea70c7a7e19f31d9f546b019d827d32945c21164db9934c17b09f415821e73aca5e11f8c27e0651406c99c836
+  checksum: 10c0/16bde09b13f2625b3fc12bd64fbcf851a2261144bad38b2e0c2609e5a04a6daf456cb4a20cda1c1b8549c59918b8d1a33e7b2107383f640af2b3e8f71218773a
   languageName: node
   linkType: hard
 
-"@substrate/discovery@npm:^0.2.1":
-  version: 0.2.1
-  resolution: "@substrate/discovery@npm:0.2.1"
-  checksum: 10c0/91b101d7cde80a29dfb38fb4b22d92559d1f49f1c6141896f715dab1169f9ee03ce6e8e493c01705cad73d4d82f07b5e6c26d7e5bfea3f9912e2cb7b070b7252
+"@substrate/discovery@npm:^0.2.2":
+  version: 0.2.2
+  resolution: "@substrate/discovery@npm:0.2.2"
+  checksum: 10c0/7c1093da88742d285483231d65bd84d82f781b299791509c1c7e381aab584f8e250084db9014730a7bf1db0ed0eece90ca6e97f2ac7a681c03fcfe3e4246f809
   languageName: node
   linkType: hard
 
@@ -3457,12 +3471,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@substrate/smoldot-discovery@npm:^2.0.1":
-  version: 2.0.1
-  resolution: "@substrate/smoldot-discovery@npm:2.0.1"
+"@substrate/smoldot-discovery@npm:^2.0.2":
+  version: 2.0.2
+  resolution: "@substrate/smoldot-discovery@npm:2.0.2"
   dependencies:
-    "@substrate/discovery": "npm:^0.2.1"
-  checksum: 10c0/81ef9af7d7398b7b53a28487054636d26b65ae3804c6d3465e488248629d94e9c9ded09a0f5c2a3b72ff6feef4efb8409df8c94b79b2adb0028360e69c7b71da
+    "@substrate/discovery": "npm:^0.2.2"
+  checksum: 10c0/178589015a76ba04550d9663eda95c693ceebb1d2204a3d89c9ab7c6288a4c85f5bbbcb9118fef769f8aa10828c2fba6ffac63b4bdf6d89335fadf63f5d92e38
   languageName: node
   linkType: hard
 
@@ -4766,7 +4780,7 @@ __metadata:
     "@polkadot-api/substrate-bindings": "npm:^0.11.0"
     "@polkadot/util": "npm:^13.2.3"
     "@polkawatch/ddp-client": "npm:^2.0.20"
-    "@substrate/connect": "npm:^2.0.1"
+    "@substrate/connect": "npm:^2.1.4"
     "@w3ux/extension-assets": "npm:^1.0.0"
     "@w3ux/factories": "npm:^1.0.0"
     "@w3ux/react-connect-kit": "npm:^2.1.1"
