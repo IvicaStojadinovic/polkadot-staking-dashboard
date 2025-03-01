@@ -4783,7 +4783,7 @@ __metadata:
     consts: "workspace:*"
     framer-motion: "npm:^11.11.1"
     html5-qrcode: "npm:^2.3.8"
-    i18next-browser-languagedetector: "npm:^8.0.0"
+    i18next-browser-languagedetector: "npm:^8.0.4"
     locales: "workspace:*"
     plugin-staking-api: "workspace:*"
     polkadot-api: "npm:^1.8.0"
@@ -7467,12 +7467,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"i18next-browser-languagedetector@npm:^8.0.0":
-  version: 8.0.0
-  resolution: "i18next-browser-languagedetector@npm:8.0.0"
+"i18next-browser-languagedetector@npm:^8.0.4":
+  version: 8.0.4
+  resolution: "i18next-browser-languagedetector@npm:8.0.4"
   dependencies:
     "@babel/runtime": "npm:^7.23.2"
-  checksum: 10c0/08a7c747ec18a0743b54390a0b42836d814b15fb49c92b90c259298e6a6e7e001ff9df99d0fd308283a34fceea53b4d9053aa1695a37f696bc04160017bbb524
+  checksum: 10c0/82fb7333af5afdda6c31679713571a28095635a2120c95446e57d29cc1792afec42c437e2926f770c760ea58c372980c299233245c54756069b2e3fd6a05e53a
   languageName: node
   linkType: hard
 
